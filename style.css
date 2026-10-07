@@ -212,7 +212,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 14px 0;
+  padding: 8px 0;
 }
 
 .nav-brand {
@@ -222,7 +222,7 @@ ul {
 }
 
 .nav-brand img {
-  height: 46px;
+  height: 72px;
   width: auto;
 }
 
@@ -731,7 +731,7 @@ ul {
 }
 
 .footer-brand img {
-  height: 44px;
+  height: 64px;
   margin-bottom: 18px;
 }
 
@@ -1049,4 +1049,8 @@ ul {
   .hero-stats {
     gap: 24px;
   }
+}
+
+@media (max-width: 600px) {
+  .nav-brand img { height: 52px; }
 }
