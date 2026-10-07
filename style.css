@@ -599,9 +599,12 @@ ul {
 
 .split-media.photo {
   min-height: 420px;
+  align-items: stretch;
 }
 
 .split-media.photo img {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
